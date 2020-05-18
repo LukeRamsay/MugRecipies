@@ -1,4 +1,4 @@
-# MugRecipies
+# MugRecipes
 
 ### An AR experience created for Intro to AR
 
