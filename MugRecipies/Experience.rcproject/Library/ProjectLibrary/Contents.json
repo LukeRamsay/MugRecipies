@@ -3,5 +3,10 @@
     "libraryIdentifier" : "17f9b848214d2759c5eed3a9cdf984f8",
     "format" : "arObject",
     "displayName" : "Nesquick.arobject"
+  },
+  {
+    "libraryIdentifier" : "4192b0fb5145a4e87339329d1bbdd164",
+    "format" : "arObject",
+    "displayName" : "Scan_17-02-45.arobject"
   }
 ]
