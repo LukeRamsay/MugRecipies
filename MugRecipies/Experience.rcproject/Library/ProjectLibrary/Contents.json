@@ -8,5 +8,10 @@
     "libraryIdentifier" : "4192b0fb5145a4e87339329d1bbdd164",
     "format" : "arObject",
     "displayName" : "Scan_17-02-45.arobject"
+  },
+  {
+    "libraryIdentifier" : "57be967a80f9f2ab3f3067244f952c4c",
+    "format" : "model",
+    "displayName" : "egg.usdz"
   }
 ]
