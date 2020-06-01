@@ -13,5 +13,10 @@
     "libraryIdentifier" : "57be967a80f9f2ab3f3067244f952c4c",
     "format" : "model",
     "displayName" : "egg.usdz"
+  },
+  {
+    "libraryIdentifier" : "61943ede50860215d15dcc83d8c2c877",
+    "format" : "arObject",
+    "displayName" : "Scan_17-32-43.arobject"
   }
 ]
