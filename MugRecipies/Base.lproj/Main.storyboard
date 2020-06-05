@@ -29,8 +29,7 @@
                                                 <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
-                                                <action selector="OnShowIngredientsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2wt-AK-Ap0"/>
-                                                <action selector="OnShowMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z5x-s5-EtB"/>
+                                                <action selector="tapShowMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1X3-ym-nL0"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4X-IT-99T">
@@ -40,8 +39,7 @@
                                                 <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
-                                                <action selector="OnHideMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W7Q-IA-7uh"/>
-                                                <action selector="OnShowIngredientsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YI0-sK-to8"/>
+                                                <action selector="tapHideMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0mw-Cz-kSt"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jne-Yf-fqK">
@@ -51,8 +49,7 @@
                                                 <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
-                                                <action selector="OnShowChef:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MJs-uw-GqS"/>
-                                                <action selector="OnShowIngredientsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ftd-Ql-y4d"/>
+                                                <action selector="tapSummonChef:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Juy-B9-vbL"/>
                                             </connections>
                                         </button>
                                     </subviews>

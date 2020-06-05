@@ -42,21 +42,21 @@ class ViewController: UIViewController {
         summonButton.isHidden = false
     }
     
-    @IBAction func OnShowMenu(_ sender: Any) {
+    @IBAction func tapShowMenu(_ sender: Any) {
         if let sceneAnchor = arView.scene.anchors[0] as? Experience.Box {
         
         sceneAnchor.notifications.showMenu.post()
         }
     }
     
-    @IBAction func OnHideMenu(_ sender: Any) {
+    @IBAction func tapHideMenu(_ sender: Any) {
         if let sceneAnchor = arView.scene.anchors[0] as? Experience.Box {
         
         sceneAnchor.notifications.hideMenu.post()
         }
     }
     
-    @IBAction func OnShowChef(_ sender: Any) {
+    @IBAction func tapSummonChef(_ sender: Any) {
         if let sceneAnchor = arView.scene.anchors[0] as? Experience.Box {
         
         sceneAnchor.notifications.summonChef.post()

@@ -17,6 +17,8 @@
 		A37BF00A24898D0700AFD45A /* LibreBarcode39Text-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A37BF00624898D0700AFD45A /* LibreBarcode39Text-Regular.ttf */; };
 		A37BF00B24898D0700AFD45A /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A37BF00724898D0700AFD45A /* Manrope-Regular.ttf */; };
 		A37BF00C24898D0700AFD45A /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A37BF00824898D0700AFD45A /* Oswald-ExtraLight.ttf */; };
+		A3992D1A248AD68A00A622AC /* Delicious, Finally! Some good fucking food. (Gordon Ramsay).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A3992D18248AD68900A622AC /* Delicious, Finally! Some good fucking food. (Gordon Ramsay).mp3 */; };
+		A3992D1B248AD68A00A622AC /* Hell's Kitchen Kitchen Nightmares Dramatic Sound Effect (Waterphone).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A3992D19248AD68900A622AC /* Hell's Kitchen Kitchen Nightmares Dramatic Sound Effect (Waterphone).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		A37BF00624898D0700AFD45A /* LibreBarcode39Text-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBarcode39Text-Regular.ttf"; sourceTree = "<group>"; };
 		A37BF00724898D0700AFD45A /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
 		A37BF00824898D0700AFD45A /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A3992D18248AD68900A622AC /* Delicious, Finally! Some good fucking food. (Gordon Ramsay).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Delicious, Finally! Some good fucking food. (Gordon Ramsay).mp3"; sourceTree = "<group>"; };
+		A3992D19248AD68900A622AC /* Hell's Kitchen Kitchen Nightmares Dramatic Sound Effect (Waterphone).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hell's Kitchen Kitchen Nightmares Dramatic Sound Effect (Waterphone).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		A37BF00424898D0700AFD45A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A3992D18248AD68900A622AC /* Delicious, Finally! Some good fucking food. (Gordon Ramsay).mp3 */,
+				A3992D19248AD68900A622AC /* Hell's Kitchen Kitchen Nightmares Dramatic Sound Effect (Waterphone).mp3 */,
 				A37BF00524898D0700AFD45A /* Oswald-Extra-LightItalic.ttf */,
 				A37BF00624898D0700AFD45A /* LibreBarcode39Text-Regular.ttf */,
 				A37BF00724898D0700AFD45A /* Manrope-Regular.ttf */,
@@ -149,7 +155,9 @@
 				A330283A2472AA8A00710466 /* LaunchScreen.storyboard in Resources */,
 				A37BF00A24898D0700AFD45A /* LibreBarcode39Text-Regular.ttf in Resources */,
 				A37BF00B24898D0700AFD45A /* Manrope-Regular.ttf in Resources */,
+				A3992D1A248AD68A00A622AC /* Delicious, Finally! Some good fucking food. (Gordon Ramsay).mp3 in Resources */,
 				A37BF00C24898D0700AFD45A /* Oswald-ExtraLight.ttf in Resources */,
+				A3992D1B248AD68A00A622AC /* Hell's Kitchen Kitchen Nightmares Dramatic Sound Effect (Waterphone).mp3 in Resources */,
 				A33028372472AA8A00710466 /* Assets.xcassets in Resources */,
 				A37BF00924898D0700AFD45A /* Oswald-Extra-LightItalic.ttf in Resources */,
 				A33028352472AA8700710466 /* Main.storyboard in Resources */,
