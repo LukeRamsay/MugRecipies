@@ -18,5 +18,25 @@
     "libraryIdentifier" : "61943ede50860215d15dcc83d8c2c877",
     "format" : "arObject",
     "displayName" : "Scan_17-32-43.arobject"
+  },
+  {
+    "libraryIdentifier" : "8f9831af921dc4b8b4a8682609b77802",
+    "format" : "model",
+    "displayName" : "Cupcake.usdz"
+  },
+  {
+    "libraryIdentifier" : "519c4dc014161ef22645372bf6d6ab92",
+    "format" : "model",
+    "displayName" : "coffee_cup.usdz"
+  },
+  {
+    "libraryIdentifier" : "47dc4f22d2720a3fc934f597144a0a5e",
+    "format" : "model",
+    "displayName" : "chef.usdz"
+  },
+  {
+    "libraryIdentifier" : "b32b90e2cda1cf7d5a48695ac4070825",
+    "format" : "model",
+    "displayName" : "clock.usdz"
   }
 ]

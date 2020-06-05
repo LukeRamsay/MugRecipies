@@ -13,6 +13,10 @@
 		A33028352472AA8700710466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33028332472AA8700710466 /* Main.storyboard */; };
 		A33028372472AA8A00710466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33028362472AA8A00710466 /* Assets.xcassets */; };
 		A330283A2472AA8A00710466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33028382472AA8A00710466 /* LaunchScreen.storyboard */; };
+		A37BF00924898D0700AFD45A /* Oswald-Extra-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A37BF00524898D0700AFD45A /* Oswald-Extra-LightItalic.ttf */; };
+		A37BF00A24898D0700AFD45A /* LibreBarcode39Text-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A37BF00624898D0700AFD45A /* LibreBarcode39Text-Regular.ttf */; };
+		A37BF00B24898D0700AFD45A /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A37BF00724898D0700AFD45A /* Manrope-Regular.ttf */; };
+		A37BF00C24898D0700AFD45A /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A37BF00824898D0700AFD45A /* Oswald-ExtraLight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A33028362472AA8A00710466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A33028392472AA8A00710466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A330283B2472AA8A00710466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37BF00524898D0700AFD45A /* Oswald-Extra-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Extra-LightItalic.ttf"; sourceTree = "<group>"; };
+		A37BF00624898D0700AFD45A /* LibreBarcode39Text-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBarcode39Text-Regular.ttf"; sourceTree = "<group>"; };
+		A37BF00724898D0700AFD45A /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		A37BF00824898D0700AFD45A /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		A330282C2472AA8700710466 /* MugRecipies */ = {
 			isa = PBXGroup;
 			children = (
+				A37BF00424898D0700AFD45A /* Resources */,
 				A330282D2472AA8700710466 /* AppDelegate.swift */,
 				A330282F2472AA8700710466 /* ViewController.swift */,
 				A33028312472AA8700710466 /* Experience.rcproject */,
@@ -65,6 +74,18 @@
 				A330283B2472AA8A00710466 /* Info.plist */,
 			);
 			path = MugRecipies;
+			sourceTree = "<group>";
+		};
+		A37BF00424898D0700AFD45A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A37BF00524898D0700AFD45A /* Oswald-Extra-LightItalic.ttf */,
+				A37BF00624898D0700AFD45A /* LibreBarcode39Text-Regular.ttf */,
+				A37BF00724898D0700AFD45A /* Manrope-Regular.ttf */,
+				A37BF00824898D0700AFD45A /* Oswald-ExtraLight.ttf */,
+			);
+			name = Resources;
+			path = ../../../../Downloads/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A330283A2472AA8A00710466 /* LaunchScreen.storyboard in Resources */,
+				A37BF00A24898D0700AFD45A /* LibreBarcode39Text-Regular.ttf in Resources */,
+				A37BF00B24898D0700AFD45A /* Manrope-Regular.ttf in Resources */,
+				A37BF00C24898D0700AFD45A /* Oswald-ExtraLight.ttf in Resources */,
 				A33028372472AA8A00710466 /* Assets.xcassets in Resources */,
+				A37BF00924898D0700AFD45A /* Oswald-Extra-LightItalic.ttf in Resources */,
 				A33028352472AA8700710466 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
