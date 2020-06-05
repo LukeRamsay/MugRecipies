@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     @IBOutlet weak var showButton: UIButton!
+    @IBOutlet weak var hideButton: UIButton!
+    @IBOutlet weak var summonButton: UIButton!
     @IBOutlet weak var textPannel: UIVisualEffectView!
     
     override func viewDidLoad() {
@@ -34,16 +36,30 @@ class ViewController: UIViewController {
     func handleShowInterface(_ entity: Entity?){
         guard entity != nil else {return}
         
-        print("Scene Start")
-        
         textPannel.isHidden = false
         showButton.isHidden = false
+        hideButton.isHidden = false
+        summonButton.isHidden = false
     }
     
-    @IBAction func OnShowIngredientsTapped(_ sender: Any) {
+    @IBAction func OnShowMenu(_ sender: Any) {
         if let sceneAnchor = arView.scene.anchors[0] as? Experience.Box {
         
-        sceneAnchor.notifications.showIngredients.post()
+        sceneAnchor.notifications.showMenu.post()
+        }
+    }
+    
+    @IBAction func OnHideMenu(_ sender: Any) {
+        if let sceneAnchor = arView.scene.anchors[0] as? Experience.Box {
+        
+        sceneAnchor.notifications.hideMenu.post()
+        }
+    }
+    
+    @IBAction func OnShowChef(_ sender: Any) {
+        if let sceneAnchor = arView.scene.anchors[0] as? Experience.Box {
+        
+        sceneAnchor.notifications.summonChef.post()
         }
     }
 }

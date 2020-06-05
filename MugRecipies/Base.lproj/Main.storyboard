@@ -16,29 +16,45 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eBw-SI-pav">
-                                <rect key="frame" x="1" y="743" width="414" height="153"/>
+                                <rect key="frame" x="1" y="800" width="414" height="96"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="To9-rM-hrc">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="153"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNp-2A-x4b">
-                                            <rect key="frame" x="188" y="78" width="38" height="30"/>
+                                            <rect key="frame" x="31" y="17" width="38" height="30"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                             <state key="normal" title="Show">
                                                 <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
                                             <connections>
                                                 <action selector="OnShowIngredientsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2wt-AK-Ap0"/>
+                                                <action selector="OnShowMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z5x-s5-EtB"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gh6-ce-Okw">
-                                            <rect key="frame" x="141" y="33" width="133" height="21"/>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4X-IT-99T">
+                                            <rect key="frame" x="95" y="17" width="32" height="30"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                            <state key="normal" title="Hide">
+                                                <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="OnHideMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W7Q-IA-7uh"/>
+                                                <action selector="OnShowIngredientsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YI0-sK-to8"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jne-Yf-fqK">
+                                            <rect key="frame" x="338" y="17" width="61" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                            <state key="normal" title="Summon">
+                                                <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="OnShowChef:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MJs-uw-GqS"/>
+                                                <action selector="OnShowIngredientsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ftd-Ql-y4d"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                 </view>
                                 <blurEffect style="regular"/>
@@ -49,7 +65,9 @@
                     </view>
                     <connections>
                         <outlet property="arView" destination="gxy-l4-bo6" id="sdV-LO-B0E"/>
+                        <outlet property="hideButton" destination="e4X-IT-99T" id="i78-pc-AQD"/>
                         <outlet property="showButton" destination="PNp-2A-x4b" id="KnP-mq-0P3"/>
+                        <outlet property="summonButton" destination="jne-Yf-fqK" id="QbZ-wR-gUv"/>
                         <outlet property="textPannel" destination="eBw-SI-pav" id="VLe-ke-QJG"/>
                     </connections>
                 </viewController>

@@ -38,5 +38,20 @@
     "libraryIdentifier" : "b32b90e2cda1cf7d5a48695ac4070825",
     "format" : "model",
     "displayName" : "clock.usdz"
+  },
+  {
+    "libraryIdentifier" : "02528c4dfa843167afdb2062f01b35a1",
+    "format" : "audio",
+    "displayName" : "Hell's Kitchen Kitchen Nightmares Dramatic Sound Effect (Waterphone).mp3"
+  },
+  {
+    "libraryIdentifier" : "b6a4f82a44a0660c926d0e8ed7a78065",
+    "format" : "audio",
+    "displayName" : "Delicious, Finally! Some good fucking food. (Gordon Ramsay).mp3"
+  },
+  {
+    "libraryIdentifier" : "2e76676a39c780527a0ff60f21516232",
+    "format" : "arObject",
+    "displayName" : "Scan_11-04-11.arobject"
   }
 ]
